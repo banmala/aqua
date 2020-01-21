@@ -4,7 +4,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 body {
   background-color: #ffffff;
-  color: #ccc;
+  color: #fff;
   font-family: 'PT Serif', serif; }
   body #myVideo {
     z-index: -1;
@@ -29,12 +29,12 @@ body {
       padding-top: 20px;
       border: 0;
       transition: 0.6s all ease-in-out;
-      color: #ccc !important; }
+      color: #fff !important; }
     body #home .top-nav-collapse {
       background: rgba(68, 59, 59, 0.9) !important;
       padding: 8px 16px; }
       body #home .top-nav-collapse a {
-        color: #ccc; }
+        color: #fff; }
     body #home .landing-page {
       height: 70vh;
       margin-top: 125px;
@@ -50,6 +50,12 @@ body {
       body #home .landing-page .row h2 {
         font-size: 28px;
         margin: auto; }
+    body #home .item img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0 10% 0 10%;
+      border-radius: 5%; }
   body #carousel {
     margin-bottom: 80px; }
     body #carousel .row a {
