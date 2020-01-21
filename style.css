@@ -16,7 +16,8 @@ body {
   body #home {
     margin-bottom: 80px; }
     body #home nav a {
-      color: white; }
+      color: white;
+      padding-left: 20px; }
     body #home nav ul li {
       padding: 5px 15px;
       font-size: 22px; }
